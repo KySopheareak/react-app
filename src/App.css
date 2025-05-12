@@ -1,0 +1,123 @@
+.bg-light {
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 39 47 / var(--tw-bg-opacity)) !important;
+}
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  border-bottom: 1px solid rgba(120,131,155,.2);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.btn-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+.main-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 25px;
+  width: 60%;
+  color: white;
+  height: 40px;
+  background-color: rgba(120,131,155,.2);
+}
+
+.search-icon {
+  --tw-text-opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(153 161 179/var(--tw-text-opacity));
+  gap: 10px;
+}
+.search-icon h5 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.search-ctrl {
+  --tw-text-opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(153 161 179/var(--tw-text-opacity));
+  gap: 5px;
+}
+
+.search-ctrl h6 {
+  font-size: 13px;
+  margin: 0;
+}
+
+.ctrl_k {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+  height: 20px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 39 47 / var(--tw-bg-opacity));
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 35%;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.nav-item:hover {
+  background-color: rgba(120,131,155,.2);
+  border-radius: 25px;
+  height: 38px;
+  width: 100%;
+}
+.nav-item a {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
