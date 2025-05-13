@@ -1,0 +1,59 @@
+.bg-dark {
+    --tw-bg-opacity: 1;
+    background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#17191e 1turn) !important;
+}
+
+.detail-interface p {
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+.span_text {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 71 86 / var(--tw-bg-opacity));
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.span_text span {
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+
+.interface-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;   
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px !important;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: white;   
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn-interactivity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 25px !important;
+    text-transform: none !important;
+    color: white !important;
+}

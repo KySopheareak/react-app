@@ -1,0 +1,53 @@
+.bg-light {
+    background-color: #292c36 !important;
+}
+
+.detail-interface p {
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+.span_text {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 71 86 / var(--tw-bg-opacity));
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.span_text span {
+    font-size: 1rem !important;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+
+.interface-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;   
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px !important;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: white;   
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-makeup {
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: rgb(137, 136, 136) 3px 3px 6px 0px inset, rgba(70, 69, 69, 0.5) -3px -3px 6px 1px inset;
+}   

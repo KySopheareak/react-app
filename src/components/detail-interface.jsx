@@ -5,7 +5,7 @@ const InterfaceDetail = () => {
     <div className="m-container bg-dark p-5">
       <div className="interface-container">
         <h1>Create user interfaces</h1>
-        <h1>from components</h1>
+        <h1 className="mb-5">from components</h1>
         <p className="detail-interface">
           React lets you build user interfaces out of individual pieces called
           components.

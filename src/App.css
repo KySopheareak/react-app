@@ -1,6 +1,6 @@
 .bg-light {
-    --tw-bg-opacity: 1;
-    background-color: rgb(35 39 47 / var(--tw-bg-opacity)) !important;
+    /* --tw-bg-opacity: 1; */
+    background-color: #292c36 !important;
 }
 
 .navbar {
@@ -12,7 +12,7 @@
   align-items: center;
   padding: 0px;
   width: 100%;
-  border-bottom: 1px solid rgba(120,131,155,.2);
+  box-shadow: rgba(30, 30, 30, 0.641) 0px 6px 5px -5px;
 }
 
 .logo {

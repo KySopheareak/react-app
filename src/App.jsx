@@ -7,6 +7,12 @@ import TranslateIcon from '@mui/icons-material/Translate';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MainDetail from "./components/main-detail";
 import InterfaceDetail from "./components/detail-interface";
+import ComponentMakeUp from "./components/component-makeup";
+import InteractivityComponent from "./components/interactivity";
+import ComponentFullStack from "./components/full-stack";
+import ComponentPlatForm from "./components/platform";
+import ComponentNews from "./components/component-news";
+import CommunityComponent from "./components/community";
 
 function App() {
   return (
@@ -66,6 +72,12 @@ function App() {
         </div>
         <MainDetail />
         <InterfaceDetail />
+        <ComponentMakeUp />
+        <InteractivityComponent />
+        <ComponentFullStack />
+        <ComponentPlatForm />
+        <ComponentNews />
+        <CommunityComponent />
       </div>
     </>
   );
