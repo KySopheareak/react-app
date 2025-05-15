@@ -91,3 +91,56 @@
   top: 100px;
   color: rgb(138 133 133);
 }
+
+.reference-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.reference {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  text-align: start;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 10px;
+  padding: 0;
+}
+.main {
+  font-weight: 500;
+}
+
+.meta {
+  font-size: 0.7rem;
+}
+.meta-uwu {
+  font-size: 0.7rem;
+}
+.meta-uwu:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon {
+  color: rgb(88 196 220);
+  font-size: 1.5rem;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+.sub {
+  font-size: 0.8rem;
+  font-weight: 400;
+}

@@ -1,9 +1,45 @@
 import "../components/platform.css";
 import { Button } from "@mui/material";
-import DevicesIcon from "@mui/icons-material/Devices";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import TerminalIcon from '@mui/icons-material/Terminal';
 
 const CommunityComponent = () => {
+  const metaData = {
+    title: "Meta Open Source",
+    desc1: "Copyright © Meta Platforms, Inc",
+    desc2: "uwu?",
+  };
+
+  const references = [
+    {
+      title: "Learn React",
+      desc: [
+        "Quick Start",
+        "Installation",
+        "Describing the UI",
+        "Adding Interactivity",
+        "Managing State",
+        "Escape Hatches",
+      ],
+    },
+    {
+      title: "API Reference",
+      desc: ["React APIs", "React DOM APIs"],
+    },
+    {
+      title: "Community",
+      desc: [
+        "Code of Conduct",
+        "Meet the Team",
+        "Docs Contributors",
+        "Acknowledgements",
+      ],
+    },
+    {
+      title: "More",
+      desc: ["Blog", "React Native", "Privacy", "Terms"],
+    },
+  ];
+
   return (
     <div className="m-container bg-dark p-5">
       <div className="interface-container">
@@ -52,6 +88,30 @@ const CommunityComponent = () => {
             <strong>Get Started</strong>
           </Button>
         </div>
+      </div>
+      <div className="reference-container">
+        <div className="reference">
+          <ul>
+            <li className="main">
+              <TerminalIcon className="icon" />
+              {metaData.title}
+            </li>
+            <li className="meta">{metaData.desc1}</li>
+            <li className="meta-uwu">{metaData.desc2}</li>
+          </ul>
+        </div>
+        {references.map((reference) => (
+          <div className="reference" key={reference.title}>
+            <ul>
+              <li className="main">{reference.title}</li>
+              {reference.desc.map((item) => (
+                <li className="sub" key={item}>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
